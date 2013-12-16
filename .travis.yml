@@ -5,3 +5,5 @@ rvm:
   
   - jruby-19mode
   - rbx
+env:
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
